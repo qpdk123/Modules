@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDLL", "SingletonDL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTimerDLL", "ThreadTimerDLL\ThreadTimerDLL.csproj", "{97D887AB-0158-417B-8DB8-380F77AA0537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectSerializerDLL", "ObjectSerializerDLL\ObjectSerializerDLL.csproj", "{17F5EBD1-B276-4DDB-B9ED-9966963D5F0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{97D887AB-0158-417B-8DB8-380F77AA0537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D887AB-0158-417B-8DB8-380F77AA0537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D887AB-0158-417B-8DB8-380F77AA0537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F5EBD1-B276-4DDB-B9ED-9966963D5F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F5EBD1-B276-4DDB-B9ED-9966963D5F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F5EBD1-B276-4DDB-B9ED-9966963D5F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F5EBD1-B276-4DDB-B9ED-9966963D5F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
