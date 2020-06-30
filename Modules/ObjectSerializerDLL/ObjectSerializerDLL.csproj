@@ -44,5 +44,11 @@
     <Compile Include="ObjectSerializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SingletonDLL\SingletonDLL.csproj">
+      <Project>{a1ad39d9-32ed-4666-bec7-0b2d805dfbcb}</Project>
+      <Name>SingletonDLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
