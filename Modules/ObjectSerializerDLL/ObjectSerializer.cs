@@ -9,6 +9,7 @@ namespace ObjectSerializerDLL
     {
         protected ObjectSerializer()
         {
+            //수정
         }
 
         public void Save<T>(string path, T arg) where T : class
